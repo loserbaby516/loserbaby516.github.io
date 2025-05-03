@@ -1,3 +1,0 @@
-html elements: a, p, ul, li, div, footer, h5, link, img, script
-css selectors: .about, body, .btn, .btn:hover, .card
-css properties: margin, text-align, background-color, text-decoration, padding-left,
