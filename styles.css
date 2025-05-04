@@ -4,7 +4,6 @@
     margin: 30px;
 }
 
-
 body {
     background-image: url("./images/download.jpg");
     background-size: cover;
@@ -26,6 +25,11 @@ body {
 
 .card {
     margin-bottom: 40px;
+}
+
+.card:hover {
+    background-color: darkgrey;
+    border-width: 3px;
 }
 
 .card-body {
