@@ -3,17 +3,19 @@ async function record_form() {
     const sub = new FormData(form);
     
     try {
-        const data = await fetch("https://api.web3forms.com/submit", {
-          method: "POST",
-          // Set the FormData instance as the request body
-          body: sub,
+        const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        // Set the FormData instance as the request body
+        body: sub,
         });
         console.log(await response.json());
-      } catch (e) {
+    } catch (e) {
         console.error(e);
-      }
+    } 
 }
   
+
+
 
 function thankYou() {
     event.preventDefault;
