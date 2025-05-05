@@ -14,14 +14,12 @@ async function record_form() {
     } 
 }
   
-
-
-
 function thankYou() {
     event.preventDefault;
     alert('Thank you for reaching out!');
 }
-  
+
+
 
   /* const form = document.querySelector('#form');
   form.addEventListener('submit', function() {
