@@ -3,7 +3,7 @@ async function record_form() {
     const sub = new FormData(form);
     
     try {
-        const data = await fetch("https://loserbaby516.github.io/responses.html", {
+        const data = await fetch("https://api.web3forms.com/submit", {
           method: "POST",
           // Set the FormData instance as the request body
           body: sub,
