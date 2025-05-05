@@ -1,11 +1,20 @@
-function record_form() {
+async function record_form() {
     event.preventDefault();
     const sub = new FormData(form);
-    for (item of sub) {
-        console.log(item);
-    }
+    
+    try {
+        const data = await fetch("https://loserbaby516.github.io/responses.html", {
+          method: "POST",
+          // Set the FormData instance as the request body
+          body: sub,
+        });
+        console.log(await response.json());
+      } catch (e) {
+        console.error(e);
+      }
 }
   
+
 function thankYou() {
     event.preventDefault;
     alert('Thank you for reaching out!');
