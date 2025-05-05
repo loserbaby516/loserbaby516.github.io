@@ -6,9 +6,8 @@
 
 body {
     background-image: url("./images/download.jpg");
-    background-size: cover;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100vw 100vh;;
 }
 
 .btn {
