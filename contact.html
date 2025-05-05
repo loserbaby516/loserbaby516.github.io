@@ -21,7 +21,7 @@
             </div>
           </div>
           <div class="contact">
-            <form id="form" onsubmit="record_form(); thankYou(); return false;">
+            <form id="form" onsubmit="record_form(); thankYou(); check_hcaptcha(); return false;">
               <input type="hidden" name="access_key" value="4acb6af7-2e7e-468c-a941-10954b54294f">
               <div class="contact_name">
                 <div>
@@ -37,7 +37,7 @@
               <input autocomplete="on" name="email" type="email"><br><br>
               <label for="message">Message</label><br>
               <textarea name="message" style="width: 50vw; height: 200px;"></textarea>
-              
+
               <br><br>
               <div class="h-captcha" data-sitekey="f50e2aea-a696-48a0-a374-d55640689d4a"></div><br>
               <button type="submit">Submit</button>
