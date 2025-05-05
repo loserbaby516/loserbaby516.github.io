@@ -20,7 +20,7 @@
             </div>
           </div>
           <div class="contact">
-            <form onsubmit="thankYou(); return false;">
+            <form id="form" onsubmit="record_form(); thankYou(); return false;">
               <div class="contact_name">
                 <div>
                   <label for="fname">First Name</label><br>
@@ -28,15 +28,15 @@
                 </div>
                 <div>
                   <label for="lname">Last Name</label><br>
-                  <input autocomplete="on" name="fname">
+                  <input autocomplete="on" name="lname">
                 </div>
               </div><br>
-              <label for="fname">Email</label><br>
-              <input autocomplete="on" name="fname" type="email"><br><br>
+              <label for="email">Email</label><br>
+              <input autocomplete="on" name="email" type="email"><br><br>
               <label for="message">Message</label><br>
               <textarea name="message" style="width: 50vw; height: 200px;"></textarea>
               <br><br>
-              <input type="submit">
+              <button type="submit">Submit</button>
             </form>
           </div>
     </body>
